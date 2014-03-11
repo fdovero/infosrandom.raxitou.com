@@ -11,13 +11,16 @@
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/font.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/csshake.min.css">
         <script src="js/vendor/jquery-1.10.1.min.js"></script>
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <script src="js/vendor/underscore.min.js"></script>  
         <script src="js/raxitou.js"></script>
     </head>
-    <body onload="raxit();" style="height:100%">
+    <body onload="raxit();">
         <!--[if lt IE 7]>
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -28,29 +31,35 @@
                 <nav>
                     <ul>
                         <li><a href="https://www.facebook.com/s0uthcast">s0uthcast</a></li>
-                        <li><a href="#">nav ul li a</a></li>
-                        <li><a href="#">nav ul li a</a></li>
+                        <li><a href="dota2.fr">dota2.fr</a></li>
+                        <li><a href="mailto:contact@raxitou.com">contact</a></li>
                     </ul>
                 </nav>
             </header>
         </div>
 
-        <div class="main-container" style="min-height:100%">
+        <div class="main-container">
             <div class="main wrapper clearfix">
 
-                <article style="min-height:100%"> 
-                    <blockquote>
-                        <span id="rax"></span>
-                        <br/><cite> Raxitou - 2014 </cite>
+                <article> 
+                    <blockquote class="cont"> 
+                        <span id="intro"></span>
+                        <span id="objet"></span>
+                        <span id="cntxt"></span>
+                        <span id="chute"></span>
+                        <span id="concl"></span>
+                        <cite id="sigtr" class="animated fadeInUp"> Raxitou - 2014 </cite>
                     </blockquote> 
-                    <button class="btn btn-default" onclick="raxit();">Rax it !</button>
+                    <div class="t-align-center">
+                        <button class="button shake shake-constant hover-stop" onclick="raxit();">Rax it !</button>
+                    </div>
                 </article>
 
             </div> <!-- #main -->
         </div> <!-- #main-container --> 
-        <div class="footer-container" style="position:absolute;bottom:0;width:100%">
+        <div class="footer-container">
             <footer class="wrapper">
-                <h3>footer</h3>
+                <small>From South with Love</small>
             </footer>
         </div>
     </body>
