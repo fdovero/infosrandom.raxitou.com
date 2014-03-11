@@ -100,10 +100,17 @@ body {
 
 .title {
     color: white;
-    font-family: inherit;
+    font-family: 'calligraffitiregular';
+    font-weight: bold;
+}
+
+.title a {
+    color: inherit;
+    text-decoration: inherit;
 }
 
 .cont {
+    top: 2em;
     font-size: 1.5em;
     font-weight: normal;
     text-align: center;
