@@ -1,7 +1,7 @@
 {
-    "intro" : ["Oh putain !", "Oh la la !"],
-    "objet" : ["Les Nikes"],
-    "cntxt" : ["de retour vers le futur"],
-    "chute" : ["dispo en 2015 !"],
-    "concl" : ["NEED"]
+    "intro" : ["","Oh putain !", "Oh la la !"],
+    "objet" : ["Les chaussures Nikes", "Le death note", "La meuf"],
+    "cntxt" : ["de retour vers le futur", "j'en ai une réplique"],
+    "chute" : ["dispo en 2015 !", "avec les noms écrit par Kira dedans !"],
+    "concl" : ["Need !", ""]
 }

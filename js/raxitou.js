@@ -27,11 +27,11 @@ function raxit() {
         });
 
         
-        $('#intro').removeClass('fadeInDown').addClass('animated fadeOutDown').css('-moz-animation-delay',_.random(0,3)*100+'ms').css('-moz-animation-duration','300ms');
-        $('#objet').removeClass('fadeInDown').addClass('animated fadeOutDown').css('-moz-animation-delay',_.random(0,3)*100+'ms').css('-moz-animation-duration','300ms');
-        $('#cntxt').removeClass('fadeInDown').addClass('animated fadeOutDown').css('-moz-animation-delay',_.random(0,3)*100+'ms').css('-moz-animation-duration','300ms');
-        $('#chute').removeClass('fadeInDown').addClass('animated fadeOutDown').css('-moz-animation-delay',_.random(0,3)*100+'ms').css('-moz-animation-duration','300ms');
-        $('#concl').removeClass('fadeInDown').addClass('animated fadeOutDown').css('-moz-animation-delay',_.random(0,3)*100+'ms').css('-moz-animation-duration','300ms');
+        $('#intro').removeClass('fadeInDown').addClass('animated fadeOutDown').css('animation-delay',_.random(0,3)*100+'ms').css('animation-duration',_.random(3,10)*100+'ms');
+        $('#objet').removeClass('fadeInDown').addClass('animated fadeOutDown').css('animation-delay',_.random(0,3)*100+'ms').css('animation-duration',_.random(3,10)*100+'ms');
+        $('#cntxt').removeClass('fadeInDown').addClass('animated fadeOutDown').css('animation-delay',_.random(0,3)*100+'ms').css('animation-duration',_.random(3,10)*100+'ms');
+        $('#chute').removeClass('fadeInDown').addClass('animated fadeOutDown').css('animation-delay',_.random(0,3)*100+'ms').css('animation-duration',_.random(3,10)*100+'ms');
+        $('#concl').removeClass('fadeInDown').addClass('animated fadeOutDown').css('animation-delay',_.random(0,3)*100+'ms').css('animation-duration',_.random(3,10)*100+'ms');
     }); 
     return false;
 };
